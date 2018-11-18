@@ -1,0 +1,106 @@
+html, body {
+	margin	: 0px;
+	padding	: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+ }
+ 
+body {
+	background-color	: #4096EE ;
+}
+
+.TABLE_MAIN {
+	text-align			: left; 
+	border				: 0px;
+	width				: 1024px;
+	margin-top			: 50px;
+	margin-bottom		: 50px;
+	padding				: 30px;
+	background			: white;
+	color				: black;
+	behavior			: url(Style/Arrondi/PIE.htc);
+	/*Coin Arrondi*/
+	-moz-border-radius		: 10px;
+    -webkit-border-radius	: 10px;
+    border-radius			: 10px;
+	/*Ombre*/
+	-webkit-box-shadow	: #666 5px 5px 5px;
+	-moz-box-shadow		: #666 5px 5px 5px;
+	box-shadow			: #666 5px 5px 5px;
+	/*Dégradé de couleur*/
+	/*background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FEFEFE), to(#CCFFE6));
+	background: -webkit-linear-gradient(#FEFEFE, #CCFFE6);
+	background: -moz-linear-gradient(#FEFEFE, #CCFFE6);
+	background: -ms-linear-gradient(#FEFEFE, #CCFFE6);
+	background: -o-linear-gradient(#FEFEFE, #CCFFE6);
+	background: linear-gradient(#FEFEFE, #CCFFE6);*/
+
+
+}
+
+.TABLE_MAIN thead {
+	text-align			: center; 
+	
+}
+
+.TABLE_INCLUDE {
+	text-align			: left; 
+	width				: 640px;
+	margin-top			: 20px;
+	padding				: 20px;
+	background			: #d9dde9 ;
+	color				: black;
+	behavior			: url(Style/Arrondi/PIE.htc);
+	/*Coin Arrondi*/
+	-moz-border-radius		: 10px;
+    -webkit-border-radius	: 10px;
+    border-radius			: 10px;
+}
+
+.TABLE_INCLUDE  thead {
+	text-align		: left; 
+	font-weight		: bold;
+}
+
+a {
+	color			: #4096EE;
+	text-decoration	: none;
+	font-weight		: bold;
+}
+
+a:hover {
+	text-decoration	: underline;
+	cursor			: pointer;
+	/*au survol mettre le curseur symbole masculin/feminin*/
+}	
+
+.lien_mini   {
+	font-size : 8pt;
+}
+
+.bouton {
+	text-align			: left; 
+	width				: 64px;
+	background			: #FF0084;
+	color				: #FFFFFF;
+	behavior			: url(Style/Arrondi/PIE.htc);
+	cursor			: pointer;
+	/*Coin Arrondi*/
+	-moz-border-radius		: 10px;
+    -webkit-border-radius	: 10px;
+    border-radius			: 10px;
+}
+
+.champ {
+	text-align			: left; 
+	width				: 400px;
+	background			: white;
+	padding-left		: 10px;
+	color				: black;
+	font-weight			: bold;
+	behavior			: url(Style/Arrondi/PIE.htc);
+	/*Coin Arrondi*/
+	-moz-border-radius		: 10px;
+    -webkit-border-radius	: 10px;
+    border-radius			: 10px;
+}

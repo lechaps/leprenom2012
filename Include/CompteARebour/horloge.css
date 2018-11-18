@@ -1,0 +1,27 @@
+.dash {
+	margin-left	: 80px;
+	height		: 50px;
+	background	: transparent url('dash.png') 0 0 no-repeat;
+	float		: left;
+	position	: relative;
+}
+
+.dash .digit {
+	margin-left	: 5px;
+	margin-top	: 13px;
+	font-size	: 25pt;
+	font-weight	: bold;
+	float		: left;
+	width		: 23px;
+	font-family	: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color		: #555;
+	position	: relative;
+}
+
+.dash_title {
+	position		: absolute;
+	font-size		: 9pt;
+	color			: #555;
+	text-transform	: uppercase;
+	letter-spacing	: 2px;
+}
